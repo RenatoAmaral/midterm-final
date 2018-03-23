@@ -1,0 +1,86 @@
+
+
+<div class="container-menu">
+
+  <div class="cart">
+
+    <h3> CART </h3>
+
+    <table class="table table-hover table-bordered">
+
+      <thead>
+
+        <tr>
+
+            <th class="col-8"><h5>Product</h5></th>
+
+            <th>Quantity</th>
+
+            <th class="col-2 text-center">Price</th>
+
+            <th class="col-2 text-center">Total</th>
+
+            <th class="col"> </th>
+
+        </tr>
+
+      </thead>
+
+      <tbody class="cart-body">
+
+        <tr class="order-line" style="visibility: hidden">
+
+          <td >
+
+            <h5 class="order-name">Empty</h5>
+
+          </td>
+
+          <td style="text-align: center">
+
+             <input type="text" class="form-control order-quantity" value=''>
+
+          </td>
+
+            <td class="text-center order-price"><strong></strong></td>
+
+            <td class=" text-center order-total"><strong></strong></td>
+
+            <td class="">
+
+              <button type="button" class="remove-button btn btn-lg btn-primary btn-block">Delete</button>
+
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+    <table class="no-border col align-self-end">
+
+      <tr class="tb-alg">
+
+        <td><h3>Cart Total</h3></td>
+
+        <td class="cart-total"><h3>$0</h3></td>
+
+        <td>
+
+          <button class="glyphicon glyphicon-play btn btn-lg btn-primary btn-block" id="customButton">Purchase</button>
+
+        </td>
+
+      </tr>
+
+    </table>
+    <div class = "user"><%=info.userName%></div>
+  </div>
+
+</div>
+
+
+
+
+

@@ -1,0 +1,24 @@
+.login_box{
+  position: fixed;
+  top: 60%;
+  left: 60%;
+}
+
+.btn-top button {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
+.btn-register button{
+  position: fixed;
+  bottom: 65px;
+  right: 50px;
+}
+
+.logout {
+  visibility: hidden;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}

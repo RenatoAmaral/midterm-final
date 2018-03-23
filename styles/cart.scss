@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+$table-size: 75%;
+
+
+.h4, h4, .h5, h5 {
+  font-size: 1rem;
+}
+
+
+.cart{
+    margin: 10px auto;
+    max-width: $table-size;
+    background: #EBECEE;
+    border-radius: 40px;
+
+  > p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 2em;
+  }
+}
+
+.p-2 {
+  background-color: #EBECEE;
+  font-style: italic;
+  h5 {
+    font-size: 2em;
+    padding-top: 45px;
+    font-family: 'Cedarville Cursive', cursive;
+  }
+  p {
+    font-size: 1em;
+    padding-top: 17px;
+    font-family: 'Titillium Web', sans-serif;
+  }
+}
+
+.container.d-flex.flex-row {
+  margin-top: 60px;
+}
+
+button.btn.btn-default {
+  background-color: #E2FBF2;
+}
+
+.customer-msg{
+    margin: 10px auto;
+    max-width: $table-size;
+    background: #E2FBF2;
+    border-radius: 40px;
+    visibility: hidden;
+  > div {
+    padding-bottom: 40px;
+  }
+  h5:first-child {
+    font-family: sans-serif;
+  }
+}
+
+.no-border td {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.user {
+  visibility: hidden;
+}
+
+
